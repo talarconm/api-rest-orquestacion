@@ -1,0 +1,15 @@
+Recuerda que:
+Una instancia es un objeto creado a partir de una clase
+ej: class Persona:
+    def __init__(self, nombre):
+        self.nombre = nombre
+La instancia es el objeto creado a partir de la clase Persona
+ej:tiare = Persona("Tiare")
+tiare es una instancia de Persona
+
+Tiene su propio nombre: tiare.nombre → "Tiare"
+
+
+self   Para que **el objeto recuerde sus propios datos** (como nombre, edad, color, etc.)SE GUARDAN EN EL OBJETO MISMO, en su propia memoria.
+
+Heredar: Cuando una clase hereda de otra, la nueva clase (subclase) obtiene todos los atributos y métodos de la clase base (superclase). Esto permite reutilizar código y crear jerarquías de clases. 
